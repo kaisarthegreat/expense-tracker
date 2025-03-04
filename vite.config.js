@@ -8,7 +8,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
+  base: '/expense-tracker/',
+  plugins: [    
     vue(),
     vueDevTools(),
     VitePWA({ 
@@ -29,7 +30,7 @@ export default defineConfig({
             type: 'image/png'
           },
           {
-              src: "/icons/pwa-192x192.png",
+              src: 'icons/pwa-192x192.png',
               sizes: '192x192',
               type: 'image/png'
           },

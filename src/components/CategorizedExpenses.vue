@@ -32,7 +32,7 @@ const CategorizedExpenses = computed(() => {
     return grouped
 })
 
-console.log(CategorizedExpenses)
+// console.log(CategorizedExpenses)
 
 
 

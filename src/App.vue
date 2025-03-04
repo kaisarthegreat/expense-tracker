@@ -40,7 +40,8 @@ const handleDatePicker = (pickedDate) => {
 }
 
 
-
+// console.log("from app to display env value: ", import.meta.env.VITE_SOME_KEY)
+// console.log("from app to display database env value: ", import.meta.env.DB_PASSWORD)
 
 </script>
 
