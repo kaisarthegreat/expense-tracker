@@ -29,7 +29,8 @@ const expense = () => {
 
 
 const balance = computed(() => {
-    return income() - expense()    
+    return (income() - expense()).toLocaleString()  
+    // return income() - expense()
 })
 
 

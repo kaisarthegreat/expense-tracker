@@ -57,7 +57,7 @@ const onSubmit = ()=> {
                 uncheckedBg="green"
                 />
                 
-                <input type="text" v-model="amount">
+                <input v-model="amount" type="number" min="0" step="0.01" placeholder="0.00" required>
                 
 
             </div>
