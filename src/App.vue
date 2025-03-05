@@ -50,7 +50,7 @@ const handleDatePicker = (pickedDate) => {
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="50" height="50" />
 
     <div class="wrapper">
-      <HelloWorld msg="Spending Tracker" />
+      <HelloWorld msg="Expense Tracker" />
     </div>
   </header>
 
